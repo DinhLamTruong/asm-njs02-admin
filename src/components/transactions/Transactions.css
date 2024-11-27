@@ -1,0 +1,54 @@
+.transaction {
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.5);
+
+  h3 {
+    text-transform: capitalize;
+    margin: 12px 0;
+    font-weight: 300;
+    color: #83858a;
+  }
+
+  .transactionContent {
+    padding: 20px;
+  }
+
+  .statusBtn {
+    cursor: pointer;
+    border-radius: 6px;
+    padding: 8px 6px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border: none;
+  }
+  .Checkin {
+    background-color: #39d139;
+  }
+  .Booked {
+    background-color: #f69685;
+  }
+  .Checkout {
+    background-color: #d3d0f2;
+  }
+
+  .viewButton {
+    height: 30px;
+    align-items: center;
+    display: flex;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: darkblue;
+    border: 1px solid rgba(0, 0, 139, 0.596);
+    cursor: pointer;
+  }
+
+  .deleteButton {
+    height: 30px;
+    align-items: center;
+    display: flex;
+    padding: 2px 5px;
+    border-radius: 5px;
+    color: crimson;
+    border: 1px solid rgba(220, 20, 60, 0.6);
+    cursor: pointer;
+  }
+}

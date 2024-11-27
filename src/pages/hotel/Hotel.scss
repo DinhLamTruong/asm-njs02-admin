@@ -1,0 +1,27 @@
+h3 {
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #83858a;
+}
+
+button {
+  border: 1px solid #5aad5a;
+  border-radius: 4px;
+  padding: 5px 4px;
+  color: #3d9033;
+  font-size: 14px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.buttonDelete {
+  border: 1px dotted #e44b6a;
+  border-radius: 4px;
+  padding: 5px 4px;
+  color: #3d9033;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 400;
+  cursor: pointer;
+  margin-right: 10px;
+}

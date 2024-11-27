@@ -1,0 +1,94 @@
+.newHotelContainer {
+  width: 84%;
+  padding: 10px;
+
+  h3 {
+    height: 52px;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.5);
+    display: flex;
+    align-items: center;
+    color: #dcdddd;
+    padding: 10px;
+    font-weight: 400;
+  }
+}
+
+.formWrapper {
+  display: flex;
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.5);
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+.formInput {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .fileUpdate {
+    min-height: 90px;
+  }
+
+  label {
+    text-transform: capitalize;
+  }
+
+  input {
+    border: none;
+    border-bottom: 1px solid #949494;
+    padding: 4px 2px;
+    margin-top: 4px;
+    outline: none;
+    font-size: 14px;
+    color: #919191;
+  }
+
+  select {
+    width: 50px;
+    padding: 2px;
+    text-transform: capitalize;
+  }
+
+  textarea {
+    z-index: 1;
+    max-width: 600px;
+    min-height: 40px;
+    font-size: 14px;
+    padding: 4px;
+  }
+}
+
+.selectRooms {
+  width: 100%;
+
+  label {
+    text-transform: capitalize;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    appearance: inherit;
+    margin-top: 4px;
+
+    option {
+      margin-bottom: 2px;
+      font-size: 14px;
+    }
+  }
+}
+
+.btnSend {
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 0;
+  padding: 10px 30px;
+}
